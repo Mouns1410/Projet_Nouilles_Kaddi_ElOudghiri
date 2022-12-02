@@ -5,6 +5,7 @@
 .i-me{
     color: rgb(87, 0, 128);
     font-size: 25px;
+    font-family: cursive;
 }
 .i-center{
     display: flex;
@@ -13,11 +14,27 @@
 .i-nouilles{
     color: rgb(87, 0, 128);
     font-size: 20px;
+    font-family: cursive;
+}
+.i-link-contact{
+    text-decoration: none;
+    margin-right: 5px;
+}
+.i-X{
+    font-size: 20px;
+    background-color: white;
+    border: 0;
+}
+.i-d-link{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 /* FOOTER */
 footer{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .i-d-footer{
     display: flex;
