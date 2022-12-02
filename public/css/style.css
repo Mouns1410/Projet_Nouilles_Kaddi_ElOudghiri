@@ -17,7 +17,7 @@ header {
     background-size: cover;
     object-fit: cover;
     width: 99vw;
-    height: 100vh;
+    height: 93vh;
 }
 
 
@@ -122,4 +122,40 @@ m-header-text-row4 {
     border: none;
     border-radius: 20px;
     padding: 10px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+.m-sec1 {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sec1-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.m-sec1-left {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.m-sec1-right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10%;
+}
+.m-sec1-img {
+    height: 400px;
+}
+.sec1-title {
+    color: #695aa6;
+    font-weight: bold;
+    font-size: 2em;
 }
