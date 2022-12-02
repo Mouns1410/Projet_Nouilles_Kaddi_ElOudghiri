@@ -4,16 +4,25 @@ body {
     margin: 0;
     font-family: Kabrio Abarth;
 }
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 p {
     margin: 0;
     padding: 0;
 }
 header {
-    background-image: url("../img/header3.jpg");
+    /* background-image: url("../img/header3.jpg"); */
+    background-image: url("../img/header.jpg");
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    width: 99vw;
+    width: 100%;
     height: 93vh;
 }
 
@@ -127,14 +136,11 @@ m-header-text-row4 {
 
 .m-sec1 {
     margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 .sec1-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
 .m-sec1-left {
     flex-grow: 1;
@@ -164,6 +170,55 @@ m-header-text-row4 {
     padding: 10px;
 }
 
+@media only screen and (max-width: 600px) and (min-width: 1px) {    /* telephone*/
+    .sec1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .m-sec1-left {
+        margin-bottom: 10%;
+    }
+    .m-sec1-right {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .m-sec1-right-row {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 626px) {  /* tablette*/
+    .sec1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .m-sec1-left {
+        margin-bottom: 10%;
+    }
+    .m-sec1-right {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .m-sec1-right-row {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
@@ -175,6 +230,7 @@ m-header-text-row4 {
     align-items: center;
     justify-content: center;
     margin: 10% 10% 0 10%;
+    width: 80%;
 }
 .m-sec2-part1 {
     display: flex;
@@ -183,6 +239,9 @@ m-header-text-row4 {
 }
 .m-sec2-part1-1 {
     margin-bottom: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .m-sec2-part1-2 {
     margin-bottom: 60%;
@@ -197,13 +256,73 @@ m-header-text-row4 {
 }
 .sec2-border-img {
     border: 1px solid rgba(39, 39, 39, 0.2);
-    padding: 60px 90px 60px 90px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    width: 20%;
+    height: 200px;
 }
 .sec2-desc-img {
-    margin-top: 20%;
     color: #695aa6;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 1px) {    /* telephone*/
+    .m-sec2-part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+    .sec2-border-img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 626px) {  /* tablette*/
+    .m-sec2-part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+    .sec2-border-img {
+        width: 50%;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.m-sec3-part1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.m-sec3-img {
+    height: 250px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 1px) {    /* telephone*/
+    .m-sec3-part1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 626px) {  /* tablette*/
+    .m-sec3-part1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
