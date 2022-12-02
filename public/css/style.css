@@ -16,7 +16,7 @@ header {
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
 }
 
@@ -25,9 +25,47 @@ header {
 /* ---------------------------------------------------------------------------------------------------------------- */
 
 
-.m-navbar {
-
+.m-nav-container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 60%;
 }
+.m-navbar {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.m-navLeft {
+    list-style: none;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.m-navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.m-navleft-txt {
+    font-weight: bold;
+    font-size: 2.2em;
+}
+.m-navcroix {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
 
 
 /* ---------------------------------------------------------------------------------------------------------------- */
