@@ -5,10 +5,11 @@
 .i-how{
     color: grey;
     margin-bottom: 0;
+    font-size: 20px;
 }
 .i-me{
     color: rgb(87, 0, 128);
-    font-size: 25px;
+    font-size: 40px;
     margin-top: 0;
 }
 .i-center{
@@ -17,14 +18,20 @@
 }
 .i-nouilles{
     color: rgb(87, 0, 128);
-    font-size: 20px;
-    margin-bottom: 0;
+    font-size: 30px;
+    
 }
 .i-link-contact{
     text-decoration: none;
     margin-right: 5px;
-    color: grey;
+    color: rgb(92, 92, 92);
+    
 }
+.test{
+    display: flex;
+    align-items: center;
+}
+
 .i-X{
     font-size: 20px;
     background-color: white;
@@ -33,8 +40,10 @@
 .i-d-link{
     display: flex;
     justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+
 }
 .i-type{
     background-color: rgb(243, 243, 243);
@@ -42,9 +51,11 @@
     color: grey;
 }
 .i-send{
-    color: purple;
-    border:2px solid purple;
-    bord
+    background-color: white;
+    color: rgb(87, 0, 128);
+    border:2px solid rgb(87, 0, 128);
+    border-radius: 5px;
+    padding: 10px;
 }
 /* FOOTER */
 footer{
@@ -57,5 +68,5 @@ footer{
 }
 .i-copy{
     color: grey;
-    font-size: 15px;
+    font-size: 20px;
 }
