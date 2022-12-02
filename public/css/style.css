@@ -1,0 +1,21 @@
+/* CONTACT */
+.i-how{
+    color: grey;
+}
+.i-me{
+    color: rgb(87, 0, 128);
+    font-size: 25px;
+}
+/* FOOTER */
+footer{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.i-d-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.i-copy{
+    color: grey;
+    font-size: 15px;
+}
