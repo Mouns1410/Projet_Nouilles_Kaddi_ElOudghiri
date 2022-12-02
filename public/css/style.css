@@ -4,8 +4,9 @@
 }
 .i-me{
     color: rgb(87, 0, 128);
-    
+    font-size: 25px;
 }
+
 /* FOOTER */
 footer{
     margin-left: 200px;
