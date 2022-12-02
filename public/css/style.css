@@ -12,29 +12,60 @@ p {
     src: url(../font/Kabrio-Soft-Extralight-trial.ttf);
 }
 header {
-    background-image: url("../img/projet2-header2.jpg");
+    background-image: url("../img/header3.jpg");
     background-position: center;
     background-size: cover;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
 }
-/* .m-header-container {
 
-} */
-.m-header-container-text {
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+.m-navbar {
+
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+
+.m-header-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+.m-header-container-text {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 30%;
+    flex-direction: column;
+    height: 100%;
     width: 100%;
+}
+.m-header-text-row1 {
+    width: 290px;
+}
+.m-header-text-row2 {
+    width: 290px;
+}
+.m-header-text-row3 {
+    width: 290px;
+}
+m-header-text-row4 {
+    width: 290px;
 }
 .m-header-row1-title{
     color: #58595f;
     font-weight: bold;
     font-size: 2.8em;
-    margin-bottom: 50%;
+    margin-bottom: 7%;
 }
 .m-header-title {
     color: #40444d;
@@ -45,4 +76,12 @@ header {
 .m-header-undertitle {
     color: #96959b;
     letter-spacing: 5px;
+    margin-bottom: 12%;
+}
+.m-header-btn {
+    background-color: #695aa6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
 }
