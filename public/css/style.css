@@ -121,6 +121,13 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+    }
+    .i-d-link{
+        display: flex;
+        flex-direction: column;
+    }
+    .i-d-blog{
+        display: flex;
+        flex-direction: column;
     }
 }
