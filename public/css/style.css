@@ -1,15 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/kabrio-abarth?styles=92308,92306');
 body {
     padding: 0;
     margin: 0;
-    font-family: Kabrio;
+    font-family: Kabrio Abarth;
 }
 p {
     margin: 0;
     padding: 0;
-}
-@font-face {
-    font-family: Kabrio;
-    src: url(../font/Kabrio-Soft-Extralight-trial.ttf);
 }
 header {
     background-image: url("../img/header3.jpg");
@@ -55,7 +52,7 @@ header {
 }
 .m-navleft-txt {
     font-weight: bold;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 .m-navcroix {
     display: flex;
@@ -158,4 +155,32 @@ m-header-text-row4 {
     color: #695aa6;
     font-weight: bold;
     font-size: 2em;
+}
+.m-sec1-btn {
+    background-color: white;
+    color:#695aa6;
+    border: solid 1px #695aa6;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+
+.m-sec2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10% 0 10%;
+}
+.m-sec2-part2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.m-sec2-img {
+    height: 100px;
 }
