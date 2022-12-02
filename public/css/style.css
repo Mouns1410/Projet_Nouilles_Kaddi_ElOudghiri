@@ -417,7 +417,62 @@ m-header-text-row4 {
 
 
 
+/* CONTACT */
+.i-contact{
+    margin-bottom: 100px;
+}
+.i-how{
+    color: grey;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.i-me{
+    color: #695aa6;
+    font-size: 40px;
+    margin-top: 0;
+}
+.i-center{
+    display: flex;
+    justify-content: center;
+}
+.i-nouilles{
+    color: #695aa6;
+    font-size: 30px;
+    
+}
+.i-link-contact{
+    text-decoration: none;
+    margin-right: 5px;
+    color: rgb(92, 92, 92);
+    
+}
+.i-nouilles-general{
+    display: flex;
+    align-items: center;
+}
 
+.i-X{
+    font-size: 20px;
+    background-color: white;
+    border: 0;
+}
+.i-d-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.i-type{
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    color: grey;
+}
+.i-send{
+    background-color: white;
+    color: #695aa6;
+    border:2px solid #695aa6;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 /* FOOTER */
 .i-d-footer{
