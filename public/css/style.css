@@ -1,4 +1,7 @@
 /* CONTACT */
+.i-contact{
+    margin-bottom: 100px;
+}
 .i-how{
     color: grey;
     margin-bottom: 0;
@@ -20,7 +23,7 @@
 .i-link-contact{
     text-decoration: none;
     margin-right: 5px;
-
+    color: grey;
 }
 .i-X{
     font-size: 20px;
@@ -36,6 +39,12 @@
 .i-type{
     background-color: rgb(243, 243, 243);
     border-radius: 5px;
+    color: grey;
+}
+.i-send{
+    color: purple;
+    border:2px solid purple;
+    bord
 }
 /* FOOTER */
 footer{
