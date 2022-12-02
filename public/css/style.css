@@ -1,11 +1,13 @@
 /* CONTACT */
 .i-how{
     color: grey;
+    margin-bottom: 0;
 }
 .i-me{
     color: rgb(87, 0, 128);
     font-size: 25px;
     font-family: cursive;
+    margin-top: 0;
 }
 .i-center{
     display: flex;
@@ -15,6 +17,7 @@
     color: rgb(87, 0, 128);
     font-size: 20px;
     font-family: cursive;
+    margin-bottom: 0;
 }
 .i-link-contact{
     text-decoration: none;
@@ -28,8 +31,11 @@
 .i-d-link{
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.i-hr-cont{
+    
 }
 /* FOOTER */
 footer{
