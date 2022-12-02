@@ -376,3 +376,55 @@ m-header-text-row4 {
         gap: 30px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.i-d-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.i-copy{
+    color: grey;
+    font-size: 20px;
+}
