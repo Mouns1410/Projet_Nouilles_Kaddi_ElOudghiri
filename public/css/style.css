@@ -196,7 +196,6 @@ m-header-text-row4 {
 }
 
 @media only screen and (max-width: 600px) and (min-width: 1px) {
-
     /* telephone*/
     .sec1-container {
         display: flex;
@@ -405,7 +404,10 @@ m-header-text-row4 {
 }
 
 
+
 /* ---------------------------------------------------------------------------------------------------------------- */
+
+
 
 .m-sec3-part1 {
     display: flex;
@@ -439,6 +441,81 @@ m-header-text-row4 {
         gap: 30px;
     }
 }
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -538,7 +615,7 @@ m-header-text-row4 {
 
 .i-me {
     color: #695aa6;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 0;
     margin-bottom: 10%;
 }
