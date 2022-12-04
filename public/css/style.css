@@ -78,7 +78,7 @@ header {
 
 
 
-@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
+@media only screen and (max-width: 375px) and (min-width: 1px) {    /* telephone*/
     .m-nav-container {
         flex-direction: column;
     }
@@ -213,7 +213,7 @@ m-header-text-row4 {
     padding: 10px;
 }
 
-@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
+@media only screen and (max-width: 375px) and (min-width: 1px) {    /* telephone*/
     .sec1-container {
         display: flex;
         flex-direction: column;
@@ -361,7 +361,7 @@ m-header-text-row4 {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
+@media only screen and (max-width: 375px) and (min-width: 1px) {    /* telephone*/
     .m-sec2-part2 {
         display: flex;
         flex-direction: column;
@@ -402,7 +402,7 @@ m-header-text-row4 {
     width: 100%;
 }
 
-@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
+@media only screen and (max-width: 375px) and (min-width: 1px) {    /* telephone*/
     .m-sec3-part1 {
         display: flex;
         justify-content: center;
@@ -471,10 +471,22 @@ m-header-text-row4 {
     margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
-    
+@media only screen and (max-width: 375px) and (min-width: 1px) {    /* telephone*/
+    .m-mypricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .m-mypricing-box {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 376px) {  /* tablette*/
-    
+    .m-mypricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .m-mypricing-box {
+        width: 100%;
+    }
 }
