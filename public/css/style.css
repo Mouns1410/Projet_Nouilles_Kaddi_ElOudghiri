@@ -310,6 +310,13 @@ m-header-text-row4 {
         align-items: center;
         width: 50%;
     }
+    .m-sec1-right-row {
+        text-align: center;
+        padding: 0 50px;
+    }
+    .m-sec1-img {
+        height: 300px;
+    }
 }
 
 
