@@ -498,53 +498,66 @@ m-header-text-row4 {
 
 
 
+/* block mauve */
+.i-section-mauve{
+    margin-top: 50px;
+}
+.i-mauve{
+    background-color: #695aa6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.i-btn-hire{
+    font-size: 1em;
+    border-radius: 5%;
+    border: none;
+    width: 90px;
+    height: 40px;
+}
+@media only screen and (max-width: 600px) and (min-width: 1px) {
+    .i-mauve{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* testmonial */
+.i-avatar{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.i-avatar-d{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    border: 1px solid rgb(218, 215, 215);
+    height: 150px;
+    margin-left: 3%;
+}
+.i-img-avatar{
+    border-radius: 50%;
+    width: 100px;
+    margin-left: -50px;
+}
+.i-p-avatar{
+    width: 80%;
+    line-height: 20px;
+}
+@media only screen and (max-width: 600px) and (min-width: 1px) {
+    .i-avatar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 
 
 
