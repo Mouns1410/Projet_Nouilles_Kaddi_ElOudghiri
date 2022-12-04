@@ -1,8 +1,11 @@
+/* ! 767 x 767 OK*/
+/* ! 376 x 767 OK*/
+
 @import url('https://fonts.cdnfonts.com/css/kabrio-abarth?styles=92308,92306');
 body {
     padding: 0;
     margin: 0;
-    font-family: Kabrio Abarth;
+    /* font-family: Kabrio Abarth; */
 }
 main {
     margin-left: 10%;
@@ -17,8 +20,8 @@ p {
     padding: 0;
 }
 header {
-    /* background-image: url("../img/header3.jpg"); */
-    background-image: url("../img/header.jpg");
+    background-image: linear-gradient(to bottom, rgba(73, 86, 155, 0.52), white),
+    url('../img/header.jpg');
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -70,6 +73,46 @@ header {
     color: white;
     font-weight: bold;
     font-size: 2.2em;
+}
+
+
+
+
+@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
+    .m-nav-container {
+        flex-direction: column;
+    }
+    .m-navbar {
+        flex-direction: column;
+    }
+    .m-navLeft {
+        flex-direction: column;
+        gap: 2px;
+    }
+    .m-sec1-img {
+        height: 200px !important;
+    }
+    main {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 376px) {  /* tablette*/
+    .m-nav-container {
+        flex-direction: column;
+    }
+    .m-navbar {
+        flex-direction: column;
+    }
+    .m-navLeft {
+        flex-direction: column;
+        gap: 2px;
+    }
+    main {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
 
 
@@ -157,7 +200,7 @@ m-header-text-row4 {
 .m-sec1-img {
     height: 400px;
 }
-.sec-title {
+.m-sec-title {
     color: #695aa6;
     font-weight: bold;
     font-size: 2em;
@@ -170,7 +213,7 @@ m-header-text-row4 {
     padding: 10px;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 1px) {    /* telephone*/
+@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
     .sec1-container {
         display: flex;
         flex-direction: column;
@@ -220,7 +263,7 @@ m-header-text-row4 {
 }
 
 
-@media only screen and (max-width: 768px) and (min-width: 626px) {  /* tablette*/
+@media only screen and (max-width: 768px) and (min-width: 376px) {  /* tablette*/
     .sec1-container {
         display: flex;
         flex-direction: column;
@@ -288,13 +331,13 @@ m-header-text-row4 {
     align-items: center;
 }
 .m-sec2-part1-1 {
-    margin-bottom: 25%;
+    margin-bottom: 10%;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .m-sec2-part1-2 {
-    margin-bottom: 60%;
+    margin-bottom: 40%;
 }
 .m-sec2-part2 {
     display: flex;
@@ -318,7 +361,7 @@ m-header-text-row4 {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 1px) {    /* telephone*/
+@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
     .m-sec2-part2 {
         display: flex;
         flex-direction: column;
@@ -332,7 +375,7 @@ m-header-text-row4 {
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 626px) {  /* tablette*/
+@media only screen and (max-width: 768px) and (min-width: 376px) {  /* tablette*/
     .m-sec2-part2 {
         display: flex;
         flex-direction: column;
@@ -359,7 +402,7 @@ m-header-text-row4 {
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 1px) {    /* telephone*/
+@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
     .m-sec3-part1 {
         display: flex;
         justify-content: center;
@@ -368,11 +411,70 @@ m-header-text-row4 {
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 626px) {  /* tablette*/
+@media only screen and (max-width: 768px) and (min-width: 376px) {  /* tablette*/
     .m-sec3-part1 {
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: 30px;
     }
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+.m-mypricing-container {
+    display: flex;
+    width: 100%;
+}
+.m-mypricing-box {
+    width: 33%;
+    border: 1px solid rgba(39, 39, 39, 0.2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.m-mypricing-box-img {
+    width: 70px;
+}
+.m-mypricing-box-option {
+    line-height: 30px;
+    text-align: center;
+}
+.m-mypricing-box-option-txt {
+    color: #6f6f6f;
+    font-size: 0.9em;
+}
+.m-mypricing-box-option-croix {
+    color: red;
+    font-size: 1em;
+}
+.m-mypricing-box-option-price {
+    font-size: 2em;
+}
+.m-mypricing-box-option-btn {
+    background-color: #695aa6;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.m-mypricing-top {
+    margin-top: 30px;
+}
+.m-mypricing-bottom {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 376px) and (min-width: 1px) {    /* telephone*/
+    
+}
+
+@media only screen and (max-width: 768px) and (min-width: 376px) {  /* tablette*/
+    
 }
