@@ -426,14 +426,9 @@ m-header-text-row4 {
 .m-sec3-part1-boximg:hover img {
     opacity: 0.3;
 }
-
 .m-sec3-part1-boximg:hover .anim {
     opacity: 1;
 }
-
-
-
-
 
 
 
@@ -454,6 +449,8 @@ m-header-text-row4 {
         gap: 30px;
     }
 }
+
+
 
 /* ---------------------------------------------------------------------------------------------------------------- */
 
