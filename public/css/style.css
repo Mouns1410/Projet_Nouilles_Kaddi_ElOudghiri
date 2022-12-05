@@ -487,35 +487,48 @@ m-header-text-row4 {
 
 .m-sec3-part1-boximg {
     position: relative;
+    overflow: hidden;
 }
 
-.anim {
+.anim { /* i-hover-t */ 
     display: flex;
     flex-direction: column;
-    transition: .5s ease;
-    opacity: 0;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 30px;
+    height: 250px;
+    width: 100%;
+
+    box-sizing: border-box;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    transition: 2s;
+    bottom: 4px;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.6s ease;
+    transform-origin: center;
+    transform: scale(0);
 }
 
-.m-anim-title {
+.m-anim-title { 
     color: #685BA6;
     font-family: titre;
     font-size: 20px;
     font-weight: bold;
 }
 
-.m-sec3-part1-boximg:hover img {
-    opacity: 0.3;
+.m-sec3-part1-boximg:hover {
+
+    cursor: pointer;
 }
 
 .m-sec3-part1-boximg:hover .anim {
+    height: 250px;
+    background-color: rgba(255, 252, 252, 0.665);
+    visibility: visible;
     opacity: 1;
+    transform: scale(1);
 }
 
 
