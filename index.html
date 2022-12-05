@@ -19,20 +19,37 @@
                         <span class="m-navleft-txt">Nouilles</span>
                     </div>
                     <div class="m-navLeft">
-                        <a href="#" class="m-navLink">Home</a>
-                        <a href="#" class="m-navLink">About</a>
-                        <a href="#" class="m-navLink">Portfolio</a>
-                        <a href="#" class="m-navLink">Testmonial</a>
-                        <a href="#" class="m-navLink">Blog</a>
-                        <a href="#" class="m-navLink">Contact</a>
+                        <a href="#home" class="m-navLink">Home</a>
+                        <a href="#about" class="m-navLink">About</a>
+                        <a href="#portfolio" class="m-navLink">Portfolio</a>
+                        <a href="#testmonial" class="m-navLink">Testmonial</a>
+                        <a href="#blog" class="m-navLink">Blog</a>
+                        <a href="#contact" class="m-navLink">Contact</a>
                         <a href="#" class="m-navcroix">X</a>
                     </div>
                 </div>
             </section>
+
+            <input type="checkbox" id="hamburger-input" class="burger-shower" />
+            <label id="hamburger-menu" for="hamburger-input">
+                <nav id="sidebar-menu">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testmonial">Testmonial</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </label>
+
+            <div class="overlay"></div>
         </nav>
 
 
-        <div class="m-header-container">
+        <div class="m-header-container" id="home">
             <div class="m-header-container-text">
                 <div class="m-header-text-row1">
                     <p class="m-header-row1-title">HI!</p>
@@ -58,7 +75,7 @@
 
     <main>
 
-        <section class="m-sec1">
+        <section class="m-sec1" id="about">
             <div class="sec1-container">
                 <div class="m-sec1-left">
                     <img src="./public/img/man.png" alt="" class="m-sec1-img">
@@ -137,7 +154,7 @@
 
 
         <section>
-            <div class="m-sec2-container">
+            <div class="m-sec2-container" id="portfolio">
                 <div class="m-sec2-part1">
                     <div class="m-sec2-part1-1"><span style="color: #6f6f6f;">What I did ?</span></div>
                     <div class="m-sec2-part1-2 m-sec-title"> Portfolio</div>
@@ -202,7 +219,8 @@
                             <p class="m-mypricing-box-option-txt">fugiat quibusdam</p>
                             <p><i class="fa-solid fa-xmark m-mypricing-box-option-croix"></i></p>
                             <p><i class="fa-solid fa-xmark m-mypricing-box-option-croix"></i></p>
-                            <p class="m-mypricing-box-option-price"><sup>$</sup>0.00/Month</p>
+                            <p class="m-mypricing-box-option-price"><span class="i-nombre"><sup>$</sup>0.00/Month</p>
+                            </span>
                         </div>
                         <div class="m-mypricing-bottom">
                             <button class="m-mypricing-box-option-btn">Subscribe</button>
@@ -220,7 +238,8 @@
                             <p class="m-mypricing-box-option-txt">fugiat quibusdam</p>
                             <p class="m-mypricing-box-option-txt">accusamus laboriosam</p>
                             <p><i class="fa-solid fa-xmark m-mypricing-box-option-croix"></i></p>
-                            <p class="m-mypricing-box-option-price"><sup>$</sup>9.99/Month</p>
+                            <p class="m-mypricing-box-option-price"><span class="i-nombre"><sup>$</sup>9.99/Month</p>
+                            </span>
                         </div>
                         <div class="m-mypricing-bottom">
                             <button class="m-mypricing-box-option-btn">Subscribe</button>
@@ -238,7 +257,8 @@
                             <p class="m-mypricing-box-option-txt">fugiat quibusdam</p>
                             <p class="m-mypricing-box-option-txt">accusamus laboriosam</p>
                             <p class="m-mypricing-box-option-txt">inventore omnis</p>
-                            <p class="m-mypricing-box-option-price"><sup>$</sup>99.9/Month</p>
+                            <p class="m-mypricing-box-option-price"><span class="i-nombre"><sup>$</sup>99.99/Month</p>
+                            </span>
                         </div>
                         <div class="m-mypricing-bottom">
                             <button class="m-mypricing-box-option-btn">Subscribe</button>
@@ -266,7 +286,7 @@
         </section>
 
         <!-- testmonial -->
-        <section>
+        <section id="testmonial">
 
             <div>
                 <p class="i-recent i-blog i-how">What Think Client About Me?</p>
@@ -339,7 +359,7 @@
             </div>
         </section>
         <br>
-        <section class="i-contact">
+        <section class="i-contact" id="blog">
             <div class="i-d-blog">
                 <div class="i-img-blog">
                     <img class="i-imgblog" src="./public/img/img-2.jpg" alt="monsier ordi">
@@ -367,7 +387,7 @@
 
 
         <!-- CONTACT -->
-        <section class="i-contact">
+        <section class="i-contact" id="contact">
             <div>
                 <p class="i-how i-center">How can you comunicate?</p>
                 <br>
